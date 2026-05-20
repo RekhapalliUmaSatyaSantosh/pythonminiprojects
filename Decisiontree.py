@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 data=pd.read_csv("C:/Users/Dell/Downloads/archive/loan_approval.csv")
 data.head()
 data.tail()
-data.shape
+data.shape()
 data.info
 data.describe()
 le=LabelEncoder()
