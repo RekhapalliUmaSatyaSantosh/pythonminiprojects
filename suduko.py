@@ -9,7 +9,7 @@ l=[[5,3,4,6,7,8,9,1,2],
    [3,4,5,2,8,6,1,7,9]]
 
 def row(a):
-    for i in l:
+    for i in a:
         if len(set(i))!=9:
             return False
     return True
