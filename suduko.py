@@ -8,13 +8,13 @@ l=[[5,3,4,6,7,8,9,1,2],
    [2,8,7,4,1,9,6,3,5],
    [3,4,5,2,8,6,1,7,9]]
 
-def row(a):
+def isrow(a):
     for i in a:
         if len(set(i))!=9:
             return False
     return True
 
-def col(b):
+def iscol(b):
     r=[]
 
     for i in range(len(l)):
@@ -28,7 +28,7 @@ def col(b):
             return False
     return True
 
-def small(c):
+def issmall(c):
 
     for i in range(0,9,3):
         for j in range(0,9,3):
@@ -42,7 +42,7 @@ def small(c):
             if len(set(r))!=9:
                 return False
     return True
-if row(l) and col(l) and small(l):
+if isrow(l) and iscol(l) and issmall(l):
     print('Valid')
 else:
     print('Invalid')
