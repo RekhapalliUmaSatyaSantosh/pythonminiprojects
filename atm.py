@@ -4,8 +4,8 @@ class atm:
         self.conn=mysql.connector.connect(
             host='localhost',
             user='root',
-            password='santosh@1503',
-            database='santosh'
+            password='urpassword',
+            database='dbname'
             )
         self.cursor=self.conn.cursor()
         self.userid=None
