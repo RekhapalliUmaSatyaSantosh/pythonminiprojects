@@ -15,11 +15,13 @@ A collection of small Python projects covering games, utilities, and machine lea
 | [`Number_Guessing.py`](./Number_Guessing.py) | Number guessing game with hints |
 | [`slot_machine.py`](./slot_machine.py) | Slot machine simulator with payout logic |
 | [`chess.py`](./chess.py) | Basic chess board/move logic |
+| [`mastermind_game.py`](./mastermind_game.py) | Guessing a 4-digit number |
 
 ## 🛠️ Tools & Utilities
 | Project | Description |
 |---|---|
 | [`ATM.py`](./ATM.py) | Simulated ATM with PIN auth, withdraw/deposit |
+| [`ATM_card.py`](./ATM_card.py) | Simulated ATM with PIN auth, withdraw/deposit |
 | [`BankAccount.py`](./BankAccount.py) | OOP-based bank account system (deposit, withdraw, balance) |
 | [`BusTicketBooking.py`](./BusTicketBokking.py) | Simple ticket booking system with seat tracking |
 | [`Digitalclock.py`](./Digitalclock.py) | Live-updating digital clock |
