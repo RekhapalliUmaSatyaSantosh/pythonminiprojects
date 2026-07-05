@@ -6,7 +6,7 @@ Projects that demonstrate CRUD operations and relational data modeling using `sq
 
 | File | Description |
 |---|---|
-| `Students_Management.py` | A menu-driven Student Management System backed by SQLite (`students.db`). Manages two related tables — `Departments` and `Students` — with a foreign key relationship. |
+| `student_management.py` | A menu-driven Student Management System backed by SQLite (`students.db`). Manages two related tables — `Departments` and `Students` — with a foreign key relationship. |
 
 ### Features
 - Create departments and students
@@ -18,7 +18,7 @@ Projects that demonstrate CRUD operations and relational data modeling using `sq
 
 ## How to Run
 ```bash
-python Student_Management_System.py
+student_management.py
 ```
 This will automatically create `students.db` in the same folder on first run (via `create_tables()`), so no manual database setup is required.
 
