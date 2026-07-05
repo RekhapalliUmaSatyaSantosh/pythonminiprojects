@@ -3,16 +3,11 @@
 Small classification projects using `scikit-learn`, demonstrating different ML algorithms trained and evaluated on a dataset.
 
 ## Projects
-|| K-Nearest Neighbors classifier implementation |
-| [`Naivebayes.py`](./Naivebayes.py) | Naive Bayes classifier implementation |
-| [`Decisiontree.py`](./Decisiontree.py) | Decision tree classifier implementation |
-| [`Randomforest.py`](./Randomforest.py) | Random forest ensemble classifier implementation |
-| File | Algorithm | Description |
 |---|---|---|
-| `Decisiontree.py` | Decision Tree Classifier | Trains a decision tree model and evaluates it with accuracy score and classification report. |
+| [`Decisiontree.py`](./Decisiontree.py) | Decision Tree Classifier | Trains a decision tree model and evaluates it with accuracy score and classification report. |
 |  [`KNN.py`](./KNN.py)  | K-Nearest Neighbors | Trains a KNN classifier and evaluates prediction performance. |
-| `Naivebayes.py` | Gaussian Naive Bayes | Trains a Naive Bayes classifier for classification tasks. |
-| `Randomforest.py` | Random Forest Classifier | Trains an ensemble random forest model and evaluates it. |
+|[`Naivebayes.py`](./Naivebayes.py) | Gaussian Naive Bayes | Trains a Naive Bayes classifier for classification tasks. |
+| [`Randomforest.py`](./Randomforest.py) | Random Forest Classifier | Trains an ensemble random forest model and evaluates it. |
 
 ## Common Workflow
 Each script generally follows the same pattern:
