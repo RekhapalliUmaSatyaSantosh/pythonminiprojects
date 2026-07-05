@@ -6,7 +6,7 @@ Small classification projects using `scikit-learn`, demonstrating different ML a
 
 | File | Algorithm | Description |
 |---|---|---|
-| [`Decision.py`]('./Decisiontree.py') | Decision Tree Classifier | Trains a decision tree model and evaluates it with accuracy score and classification report. |
+| [`Decisiontree.py`]('./Decisiontree.py') | Decision Tree Classifier | Trains a decision tree model and evaluates it with accuracy score and classification report. |
 | `KNN.py` | K-Nearest Neighbors | Trains a KNN classifier and evaluates prediction performance. |
 | `Naivebayes.py` | Gaussian Naive Bayes | Trains a Naive Bayes classifier for classification tasks. |
 | `Randomforest.py` | Random Forest Classifier | Trains an ensemble random forest model and evaluates it. |
