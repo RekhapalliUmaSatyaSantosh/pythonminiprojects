@@ -79,8 +79,8 @@ You'll see a menu-driven interface:
 5. Withdraw
 6. Transfer Money
 7. Mini Statement
-8. Change PIN
-9. Update Phone
+8.  Change PIN
+9.  Update Phone
 10. Delete Account
 11. Exit
 
