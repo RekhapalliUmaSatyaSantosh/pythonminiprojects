@@ -362,7 +362,8 @@ def menu():
                     continue
                 atm.withdrawal()
             elif choice==6:
-                
+                if not auth.is_authenticated:
+                    print("Please login first.")
                 atm.money_transfer()
             elif choice==7:
                 if not auth.is_authenticated:
