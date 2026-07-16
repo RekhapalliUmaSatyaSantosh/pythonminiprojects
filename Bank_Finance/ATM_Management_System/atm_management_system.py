@@ -124,7 +124,7 @@ class ATM:
     
     def deposit(self):
         try:
-            amount=float(input('Enter amount to be depsoite= '))
+            amount=float(input('Enter amount to be deposit= '))
             
             if amount<=0:
                 print("Invalid Amount.")
@@ -146,7 +146,7 @@ class ATM:
         
     def withdrawal(self):
         try:
-            amount=float(input('Enter amount to be depsoite= '))
+            amount=float(input('Enter amount to Withdrawn= '))
             
             query = "SELECT balance FROM accounts WHERE acc_num=%s"
             self.cursor.execute(query, (self.auth.userid,))
@@ -362,6 +362,7 @@ def menu():
                     continue
                 atm.withdrawal()
             elif choice==6:
+                
                 atm.money_transfer()
             elif choice==7:
                 if not auth.is_authenticated:
