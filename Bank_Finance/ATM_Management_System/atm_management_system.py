@@ -341,6 +341,7 @@ def menu():
 ===================================
 """)        
         try:
+            
             choice=int(input('Enter your choice= '))
             if choice==1:
                 acc.create_account()
@@ -390,6 +391,7 @@ def menu():
                 break
             else:
                 print('Invalid choice. Please choose between 1-11')
+                
         except ValueError:
             print('Enter a digit')
         input('\n Press Enter to continue.....')
