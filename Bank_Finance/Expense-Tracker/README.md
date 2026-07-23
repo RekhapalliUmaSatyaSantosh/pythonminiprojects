@@ -70,51 +70,6 @@ expense_tracker
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/expense-tracker.git
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd expense-tracker
-```
-
-### 3. Install Required Package
-
-```bash
-pip install mysql-connector-python
-```
-
-### 4. Create the MySQL Database
-
-```sql
-CREATE DATABASE expense_tracker;
-```
-
-Create the required `transactions` table according to your project database schema.
-
-### 5. Configure Database Connection
-
-Update the database connection details in the Python file:
-
-```python
-mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="your_password",
-    database="expense_tracker"
-)
-```
-
-> ⚠️ Never upload your real database password to GitHub. Use environment variables for better security.
-
----
-
 ## ▶️ How to Run
 
 Run the following command:
