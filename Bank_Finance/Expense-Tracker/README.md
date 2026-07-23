@@ -149,12 +149,4 @@ Through this project, I practiced:
 
 ---
 
-## 👨‍💻 Author
-
-**Santosh Rekhapalli**
-
-Python Full Stack Developer | Python | Django | SQL | HTML | CSS | JavaScript
-
----
-
 ⭐ If you found this project useful, consider giving the repository a star!
