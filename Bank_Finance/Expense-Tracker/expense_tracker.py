@@ -1,5 +1,3 @@
-from unicodedata import category
-
 import mysql.connector
 from datetime import datetime
 
