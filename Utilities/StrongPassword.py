@@ -1,5 +1,6 @@
 import random
 import string
+
 def check_strength(password):
     """Check password strength and return score with feedback"""
     score = 0
@@ -42,6 +43,7 @@ def check_strength(password):
         score -= 2
         feedback.append("⚠️ Contains common weak pattern")
     return score, feedback
+    
 def generate_password(length=12, use_upper=True, use_lower=True, 
                       use_digits=True, use_special=True):
     """Generate a random strong password"""
@@ -89,7 +91,8 @@ while True:
             print("⚠️ Strength: WEAK - Consider changing this password")
         print("\n📝 Detailed feedback:")
         for item in feedback:
-            print(f"  {item}")    
+            print(f"  {item}")
+            
     elif choice == '2':
         print("\n⚙️ Password Options:")
         length = int(input("Length (default 12): ") or 12)
@@ -104,12 +107,15 @@ while True:
             print(f"  {i+1}. {password}")
         print("\n🔍 Strength check for first password:")
         score, _ = check_strength(password)
+        
         if score >= 5:
             print("  ✅ Strong password!")
         else:
-            print("  ⚠️ Consider adjusting settings for stronger password")   
+            print("  ⚠️ Consider adjusting settings for stronger password")
+            
     elif choice == '3':
         print("\n🔒 Stay safe online! Goodbye!")
         break
+        
     else:
         print("❌ Invalid choice!")
