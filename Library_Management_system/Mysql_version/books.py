@@ -5,7 +5,7 @@ class Books:
     def __init__(self,db):
           self.conn=db.conn
           self.cursor=db.cursor
-    
+        
     def add_book(self):
         try:
             bookid=int(input('Enter book id= '))
